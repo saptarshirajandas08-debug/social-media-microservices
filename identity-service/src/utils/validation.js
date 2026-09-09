@@ -1,0 +1,14 @@
+// The most powerful schema description language and data validator for JavaScript.
+
+const joi = require('joi');
+
+const validateRegistration = (data)=>{
+    const schema = joi.object({
+        username: joi.string().min(3).max(15).required(),
+        email: joi.string().email().required(),
+        password: joi.string().min(6).required(),
+    });
+    return schema.validate(data);
+}
+
+module.exports = {validateRegistration}

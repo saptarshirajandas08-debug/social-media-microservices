@@ -16,7 +16,7 @@ const registrationUser = async(req, res)=>{
             })
         }
         const {username, email, password} = req.body;
-        const existinguser = await user.findOne({$or: [{email}, {username}]});
+        let existinguser = await user.findOne({$or: [{email}, {username}]}); // for check existing user it should be always let not const
         if(existinguser){
             logger.warn('User already existed');
             return res.status(400).json({

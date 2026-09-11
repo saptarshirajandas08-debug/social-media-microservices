@@ -22,3 +22,9 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-11T16:00:04.199Z"}
 {"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-11T16:00:04.209Z"}
 {"i0":6988837,"i1":8672012,"i2":2647148,"i3":12832640,"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2026-09-11T16:00:04.496Z"}
+{"level":"info","message":"Identity service started at 3000","service":"identity-service","timestamp":"2026-09-11T16:00:44.060Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-11T16:00:44.124Z"}
+{"level":"info","message":"Received POST request to /api/auth/registration","service":"identity-service","timestamp":"2026-09-11T16:01:05.637Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-11T16:01:05.638Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-11T16:01:05.652Z"}
+{"level":"warn","message":"User already existed","service":"identity-service","timestamp":"2026-09-11T16:01:05.688Z"}

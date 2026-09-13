@@ -64,3 +64,6 @@
 {"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T13:20:56.602Z"}
 {"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T13:43:34.792Z"}
 {"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T13:43:34.827Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-13T13:46:39.784Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-13T13:46:39.785Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-13T13:46:39.791Z"}

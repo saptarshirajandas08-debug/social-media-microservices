@@ -1,0 +1,11 @@
+{"level":"error","message":"ReferenceError: application is not defined\n    at proxyReqOptDecorator (C:\\Users\\Saptarshi\\OneDrive\\Documents\\Study Material\\Framework\\SM\\Advanced\\Event_Loop_One\\social-media-microservices\\api-gateway\\src\\server.js:68:48)\n    at decorateProxyReqOpt (C:\\Users\\Saptarshi\\OneDrive\\Documents\\Study Material\\Framework\\SM\\Advanced\\Event_Loop_One\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"api-gateway","timestamp":"2026-09-13T11:38:51.632Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-09-13T11:39:22.539Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-09-13T11:40:13.983Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-09-13T11:40:32.563Z"}
+{"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-13T11:42:47.411Z"}
+{"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-13T11:44:49.139Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2026-09-13T11:46:38.211Z"}
+{"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-13T11:48:15.701Z"}
+{"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-13T11:48:17.785Z"}
+{"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-13T11:48:38.112Z"}
+{"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-13T11:54:43.300Z"}

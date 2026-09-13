@@ -28,3 +28,39 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-11T16:01:05.638Z"}
 {"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-11T16:01:05.652Z"}
 {"level":"warn","message":"User already existed","service":"identity-service","timestamp":"2026-09-11T16:01:05.688Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-11T18:41:12.430Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-11T18:41:12.473Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-11T18:43:17.522Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-11T18:43:17.550Z"}
+{"level":"info","message":"Received POST request to /api/auth/registration","service":"identity-service","timestamp":"2026-09-11T18:43:54.615Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-11T18:43:54.616Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-11T18:43:54.619Z"}
+{"i0":6988875,"i1":15363025,"i2":13996673,"i3":5435223,"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2026-09-11T18:43:54.728Z"}
+{"level":"info","message":"Received POST request to /api/auth/registration","service":"identity-service","timestamp":"2026-09-11T18:43:58.173Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-11T18:43:58.173Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-11T18:43:58.174Z"}
+{"level":"warn","message":"User already existed","service":"identity-service","timestamp":"2026-09-11T18:43:58.179Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-11T18:47:24.345Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-11T18:47:24.386Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T11:55:56.325Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T11:55:56.382Z"}
+{"level":"info","message":"Received POST request to /api/auth/registration","service":"identity-service","timestamp":"2026-09-13T11:56:12.676Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-13T11:56:12.677Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-13T11:56:12.688Z"}
+{"i0":6989455,"i1":6067728,"i2":4595906,"i3":7336488,"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2026-09-13T11:56:12.863Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T11:56:45.463Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T11:56:45.541Z"}
+{"level":"info","message":"Received POST request to /api/auth/registration","service":"identity-service","timestamp":"2026-09-13T11:58:56.465Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-13T11:58:56.466Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2026-09-13T11:58:56.477Z"}
+{"i0":6989456,"i1":17143,"i2":4915102,"i3":1460452,"level":"info","message":"User saved successfully","service":"identity-service","timestamp":"2026-09-13T11:58:56.649Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T12:46:17.150Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T12:46:17.182Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T12:48:22.833Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T12:48:22.867Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T12:48:45.684Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T12:48:45.722Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T13:20:56.570Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T13:20:56.602Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-13T13:43:34.792Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-13T13:43:34.827Z"}

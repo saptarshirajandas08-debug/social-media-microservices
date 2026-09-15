@@ -2,6 +2,12 @@
 //But here we are going to manage everything from this api-gateway.
 //So whenever the api gateway will be targeted identity-service, it will create a proxy and it will divert that port from 3000 to 8000. When we will target media services, it will target instead 3000, it will create a proxy to 3000.
 
+
+//advantages:
+// while we are creating these services post service, search service, identity service and media service seperate, the first adventage is scalibilty, when we creating each service that can be scale independently based on the specific load. Second is technology flexibility whenever we creating seperate service that mean each service can use most appropriate technology stack.
+
+//workflow:
+// suppose a user will create a post, so that means the client will send a create post api and submit it to the gateway, then the api gateway forwards this request to post service, and then post service create a post in the mongosb database. Now the post service will publish the particular event in the rabbitmq
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');

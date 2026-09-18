@@ -132,3 +132,17 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-15T17:14:37.773Z"}
 {"level":"info","message":"Logger endpoint hit...","service":"identity-service","timestamp":"2026-09-15T17:14:37.774Z"}
 {"level":"info","message":"Refreash token deleted for logout.","service":"identity-service","timestamp":"2026-09-15T17:14:37.787Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-16T11:36:25.208Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-16T11:36:25.266Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-18T04:46:12.582Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-18T04:46:12.646Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-18T08:52:00.657Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-18T08:52:00.695Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-18T15:57:18.062Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-18T15:57:18.064Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-18T15:57:18.071Z"}
+{"level":"info","message":"Received POST request to /api/auth/posts","service":"identity-service","timestamp":"2026-09-18T15:57:51.516Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-18T15:57:51.517Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-18T16:04:31.272Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-18T16:04:31.273Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-18T16:04:31.275Z"}

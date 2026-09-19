@@ -29,6 +29,12 @@ const createPost = async(req, res)=> {
 const getAllpost = async(req, res)=> {
     try{
         logger.info("get all post endpoint hit")
+        const page = parseInt(req.query.page) || 1;
+        const limit = parseInt(req.query.limit) || 10;
+        const startIndex = (page - 1) * limit;
+
+        //set cache key for store the data into cache
+        
     }catch(error){
         logger.error("Error get all post", error);
         return res.status(500).json({

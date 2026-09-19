@@ -73,7 +73,7 @@ app.use('api/auth/post', sensitiveEndpointsLimiter);
 
 //routes-> pass redis client to routes
 app.use('/api/posts', (req, res, next)=>{
-    res.redisClient = redisClient;
+    req.redisClient = redisClient;
     next();
 }, router)
 

@@ -34,7 +34,25 @@ const getAllpost = async(req, res)=> {
         const startIndex = (page - 1) * limit;
 
         //set cache key for store the data into cache
-        
+        const cacheKey = `posts:${page}:${limit}`;
+        //now after creating the key we are going to get this from the cache
+        const cachedPosts = await req.redisClient.get(cacheKey);
+        if(cachedPosts){
+            return res.json(JSON.parse(cachedPosts));
+        }
+        const allData = await posts.find({}).sort({createdAt: -1}).skip(startIndex).limit(limit);
+        const totalNoOfPosts = await posts.countDocuments();
+        const result = {
+            allData, 
+            currectpage: page,
+            totalPages: Math.ceil(totalNoOfPosts/limit),
+            totalPosts: totalNoOfPosts,
+        }
+
+        //save your posts in redis cache
+        await req.redisClient.setex(cacheKey, 300, JSON.stringify(result));
+        res.json(result);
+
     }catch(error){
         logger.error("Error get all post", error);
         return res.status(500).json({

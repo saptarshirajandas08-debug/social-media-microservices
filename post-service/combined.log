@@ -185,3 +185,12 @@
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-20T13:15:31.449Z"}
 {"level":"info","message":"get post endpoint hit","service":"post-service","timestamp":"2026-09-20T13:15:31.452Z"}
 {"level":"info","message":"Post not found","service":"post-service","timestamp":"2026-09-20T13:15:31.456Z"}
+{"level":"info","message":"Post service started at 7000","service":"post-service","timestamp":"2026-09-21T04:53:35.649Z"}
+{"level":"info","message":"MongoDB Database connect","service":"post-service","timestamp":"2026-09-21T04:53:35.720Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-09-21T18:52:58.172Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-21T18:52:58.175Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2026-09-21T18:52:58.186Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"user":true}},"validationError":null},"cachedRequired":null,"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6ab17d0ab162823861e7cc3b","content":"NAME: SAPTARSHI","createdAt":"2026-09-21T18:52:58.201Z","mediaIds":["6ab178105f4fd9ff37b1310a"],"user":"6aa97c0106306bbda253f0da"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null,"validationError":null},"$isNew":false,"_doc":{"__v":0,"_id":"6ab17d0ab162823861e7cc3b","content":"NAME: SAPTARSHI","createdAt":"2026-09-21T18:52:58.201Z","mediaIds":["6ab178105f4fd9ff37b1310a"],"user":"6aa97c0106306bbda253f0da"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-09-21T18:52:58.217Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-21T18:53:09.572Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-21T18:53:09.572Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-21T18:53:09.574Z"}

@@ -7,7 +7,9 @@
 // while we are creating these services post service, search service, identity service and media service seperate, the first adventage is scalibilty, when we creating each service that can be scale independently based on the specific load. Second is technology flexibility whenever we creating seperate service that mean each service can use most appropriate technology stack.
 
 //workflow:
-// suppose a user will create a post, so that means the client will send a create post api and submit it to the gateway, then the api gateway forwards this request to post service, and then post service create a post in the mongosb database. Now the post service will publish the particular event in the rabbitmq
+// suppose a user will create a post, so that means the client will send a create post api and submit it to the gateway, then the api gateway forwards this request to post service, and then post service create a post in the mongosb database. Now the post service will publish the particular event in the rabbitmq.
+
+//Now if i delete post from the post service then the media id will be deleted but we have to delete the same media from the media table also. So that means we have to delete this two places but we are using different services, we need a connection to communicate between two services now here the RabbitMQ comes
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -100,6 +102,26 @@ app.use('/v1/posts', validateToken, proxy(process.env.POST_SERVICE_URL, {
     },
 }))
 
+//setting up proxy for media service
+app.use('/v1/media', validateToken, proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq)=> {
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
+        if(!srcReq.headers['content-type'].startsWith('multipart/form-data')){
+            proxyReqOpts.headers['content-Type'] = 'application/json';
+        }
+        return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from Post service: ${proxyRes.statusCode}`
+      );
+
+      return proxyResData;
+    },
+     parseReqBody: false,
+}))
+
 app.use(errorHandler);
 
 const port = process.env.PORT;
@@ -107,5 +129,6 @@ app.listen(port, ()=>{
     logger.info(`Api gateway is running on port ${port}`);
     logger.info(`Identity service is running on ${process.env.IDENTITY_SRVICE_URL}`);
     logger.info(`Post service is running on port ${process.env.POST_SERVICE_URL}`);
+    logger.info(`Media service is running on port ${process.env.MEDIA_SERVICE_URL}`);
     logger.info(`Redis url : ${process.env.REDIS_URL}`);
 })

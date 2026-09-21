@@ -1,0 +1,38 @@
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-21T16:39:24.446Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-21T16:39:24.507Z"}
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-21T18:16:24.005Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-21T18:16:24.043Z"}
+{"level":"info","message":"Received POST request to /api/media/file-upload","service":"media-service","timestamp":"2026-09-21T18:19:04.656Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-21T18:19:04.657Z"}
+{"level":"info","message":"Upload media endpoint hit...","service":"media-service","timestamp":"2026-09-21T18:19:04.669Z"}
+{"level":"info","message":"File details: name=Screenshot (2346).png, type=image/png","service":"media-service","timestamp":"2026-09-21T18:19:04.669Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-09-21T18:19:04.670Z"}
+{"level":"info","message":"Received POST request to /api/media/file-upload","service":"media-service","timestamp":"2026-09-21T18:21:49.879Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-21T18:21:49.880Z"}
+{"level":"info","message":"Upload media endpoint hit...","service":"media-service","timestamp":"2026-09-21T18:21:49.884Z"}
+{"level":"info","message":"File details: name=Screenshot (2346).png, type=image/png","service":"media-service","timestamp":"2026-09-21T18:21:49.884Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-09-21T18:21:49.885Z"}
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-21T18:25:48.751Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-21T18:25:48.780Z"}
+{"level":"info","message":"Received POST request to /api/media/file-upload","service":"media-service","timestamp":"2026-09-21T18:25:52.268Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-21T18:25:52.268Z"}
+{"level":"info","message":"Upload media endpoint hit...","service":"media-service","timestamp":"2026-09-21T18:25:52.280Z"}
+{"level":"info","message":"File details: name=Screenshot (2346).png, type=image/png","service":"media-service","timestamp":"2026-09-21T18:25:52.280Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-09-21T18:25:52.280Z"}
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-21T18:26:52.108Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-21T18:26:52.138Z"}
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-21T18:28:16.209Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-21T18:28:16.241Z"}
+{"level":"info","message":"Received POST request to /api/media/file-upload","service":"media-service","timestamp":"2026-09-21T18:28:26.988Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-21T18:28:26.988Z"}
+{"level":"info","message":"Upload media endpoint hit...","service":"media-service","timestamp":"2026-09-21T18:28:27.002Z"}
+{"level":"info","message":"File details: name=Screenshot (2346).png, type=image/png","service":"media-service","timestamp":"2026-09-21T18:28:27.002Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-09-21T18:28:27.003Z"}
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-21T18:31:36.093Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-21T18:31:36.125Z"}
+{"level":"info","message":"Received POST request to /api/media/file-upload","service":"media-service","timestamp":"2026-09-21T18:31:41.034Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-21T18:31:41.035Z"}
+{"level":"info","message":"Upload media endpoint hit...","service":"media-service","timestamp":"2026-09-21T18:31:41.048Z"}
+{"level":"info","message":"File details: name=Screenshot (2346).png, type=image/png","service":"media-service","timestamp":"2026-09-21T18:31:41.049Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-09-21T18:31:41.050Z"}
+{"level":"info","message":"Cloudinary upload took 2968ms","service":"media-service","timestamp":"2026-09-21T18:31:44.018Z"}

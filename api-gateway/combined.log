@@ -513,3 +513,8 @@
 {"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-21T18:53:09.566Z"}
 {"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-21T18:53:09.567Z"}
 {"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-21T18:53:09.600Z"}
+{"level":"info","message":"Api gateway is running on port 3000","service":"api-gateway","timestamp":"2026-09-21T18:58:38.264Z"}
+{"level":"info","message":"Identity service is running on http://localhost:8000","service":"api-gateway","timestamp":"2026-09-21T18:58:38.269Z"}
+{"level":"info","message":"Post service is running on port http://localhost:7000","service":"api-gateway","timestamp":"2026-09-21T18:58:38.270Z"}
+{"level":"info","message":"Media service is running on port http://localhost:9000","service":"api-gateway","timestamp":"2026-09-21T18:58:38.270Z"}
+{"level":"info","message":"Redis url : redis://localhost:6379","service":"api-gateway","timestamp":"2026-09-21T18:58:38.270Z"}

@@ -216,3 +216,22 @@
 {"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2026-09-24T15:16:05.987Z"}
 {"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-24T15:16:05.988Z"}
 {"level":"info","message":"get all media endpoint hit....","service":"media-service","timestamp":"2026-09-24T15:16:05.991Z"}
+{"level":"info","message":"Database connected","service":"media-service","timestamp":"2026-09-24T15:21:57.302Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2026-09-24T15:21:57.335Z"}
+{"level":"info","message":"Subscribed to event post.deleted","service":"media-service","timestamp":"2026-09-24T15:21:57.385Z"}
+{"level":"info","message":"Media service started at 9000","service":"media-service","timestamp":"2026-09-24T15:21:57.391Z"}
+{"level":"info","message":"Received POST request to /api/media/file-upload","service":"media-service","timestamp":"2026-09-24T15:22:47.345Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-24T15:22:47.347Z"}
+{"level":"info","message":"Upload media endpoint hit...","service":"media-service","timestamp":"2026-09-24T15:22:47.375Z"}
+{"level":"info","message":"File details: name=Screenshot (3084).png, type=image/png","service":"media-service","timestamp":"2026-09-24T15:22:47.375Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-09-24T15:22:47.376Z"}
+{"level":"info","message":"Cloudinary upload took 4961ms","service":"media-service","timestamp":"2026-09-24T15:22:52.338Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2026-09-24T15:24:03.441Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-24T15:24:03.442Z"}
+{"level":"info","message":"get all media endpoint hit....","service":"media-service","timestamp":"2026-09-24T15:24:03.446Z"}
+{"0":"e","1":"o","10":"q","11":"l","12":"g","13":"8","14":"g","15":"k","16":"a","17":"u","18":"c","19":"e","2":"4","3":"z","4":"q","5":"a","6":"q","7":"r","8":"d","9":"b","level":"info","message":"Media deleted successfully from cloudstorage","service":"media-service","timestamp":"2026-09-24T15:25:35.164Z"}
+{"level":"info","message":"Deleted medua undefined associated with this deleted post 6ab5407b40923a1e8511cd5e","service":"media-service","timestamp":"2026-09-24T15:25:35.172Z"}
+{"level":"info","message":"Processed deletion of media for post id 6ab5407b40923a1e8511cd5e","service":"media-service","timestamp":"2026-09-24T15:25:35.173Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2026-09-24T15:25:55.894Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2026-09-24T15:25:55.894Z"}
+{"level":"info","message":"get all media endpoint hit....","service":"media-service","timestamp":"2026-09-24T15:25:55.897Z"}

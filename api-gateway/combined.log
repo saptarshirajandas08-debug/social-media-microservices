@@ -714,3 +714,33 @@
 {"level":"info","message":"Recieved POST request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:21:47.898Z"}
 {"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:21:47.899Z"}
 {"level":"error","message":"Error message ","service":"api-gateway","timestamp":"2026-09-24T15:21:47.907Z"}
+{"level":"info","message":"Recieved POST request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:22:30.998Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2026-09-24T15:22:30.999Z"}
+{"level":"info","message":"Resoponse received from post service 200","service":"api-gateway","timestamp":"2026-09-24T15:22:31.158Z"}
+{"level":"info","message":"Recieved POST request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:22:47.326Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:22:47.327Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2026-09-24T15:22:52.375Z"}
+{"level":"info","message":"Recieved POST request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:23:20.178Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2026-09-24T15:23:20.178Z"}
+{"level":"warn","message":"Access attempt without valid token","service":"api-gateway","timestamp":"2026-09-24T15:23:20.181Z"}
+{"level":"info","message":"Recieved POST request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:23:39.848Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2026-09-24T15:23:39.848Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2026-09-24T15:23:39.865Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:24:03.434Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:24:03.435Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-24T15:24:03.470Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:24:39.912Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:24:39.914Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-24T15:24:39.943Z"}
+{"level":"info","message":"Recieved DELETE request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:25:20.906Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:25:20.906Z"}
+{"level":"warn","message":"Access attempt without valid token","service":"api-gateway","timestamp":"2026-09-24T15:25:20.908Z"}
+{"level":"info","message":"Recieved DELETE request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:25:33.684Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:25:33.684Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-24T15:25:33.710Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:25:55.887Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:25:55.888Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-24T15:25:55.905Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-24T15:26:10.093Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-24T15:26:10.093Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-24T15:26:10.114Z"}

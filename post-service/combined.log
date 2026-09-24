@@ -355,3 +355,17 @@
 {"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-24T15:14:16.132Z"}
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-24T15:14:16.132Z"}
 {"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-24T15:14:16.135Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-09-24T15:23:39.853Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-24T15:23:39.854Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2026-09-24T15:23:39.855Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"user":true}},"validationError":null},"cachedRequired":null,"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6ab5407b40923a1e8511cd5e","content":"John Doe Image12","createdAt":"2026-09-24T15:23:39.857Z","mediaIds":["6ab5404c072a414f570ba0bc"],"user":"6aa97c0106306bbda253f0da"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null,"validationError":null},"$isNew":false,"_doc":{"__v":0,"_id":"6ab5407b40923a1e8511cd5e","content":"John Doe Image12","createdAt":"2026-09-24T15:23:39.857Z","mediaIds":["6ab5404c072a414f570ba0bc"],"user":"6aa97c0106306bbda253f0da"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-09-24T15:23:39.862Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-24T15:24:39.922Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-24T15:24:39.922Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-24T15:24:39.924Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/6ab5407b40923a1e8511cd5e","service":"post-service","timestamp":"2026-09-24T15:25:33.694Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-24T15:25:33.694Z"}
+{"level":"info","message":"delete post endpoint hit","service":"post-service","timestamp":"2026-09-24T15:25:33.698Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2026-09-24T15:25:33.702Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-24T15:26:10.099Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-24T15:26:10.100Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-24T15:26:10.102Z"}

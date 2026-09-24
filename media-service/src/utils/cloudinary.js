@@ -14,15 +14,25 @@ const uploadMediaToCloudinary = (file) => {
                 resource_type: 'auto'
             },
             (error, result)=> {
-    if(error){
-        logger.error("Error while uploading media to cloudinary", error);
-        return reject(error);
-    }
-    resolve(result);
-}
+            if(error){
+                logger.error("Error while uploading media to cloudinary", error);
+                return reject(error);
+            }
+            resolve(result);
+            }
         )
         uploadStream.end(file.buffer);
     })
 }
 
-module.exports = {uploadMediaToCloudinary};
+const deleteMediaFromCloudinary = async(publicId) =>{
+    try{
+        const result = await cloudinary.uploader.destroy(publicId);
+        logger.info('Media deleted successfully from cloudstorage', publicId);
+        return result;
+    }catch(error){
+        logger.error('Error deleting media from cloudinary');
+    }
+}
+
+module.exports = {uploadMediaToCloudinary, deleteMediaFromCloudinary};

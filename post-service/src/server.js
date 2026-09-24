@@ -10,6 +10,7 @@ const {rateLimit } = require('express-rate-limit');
 const {RedisStore} = require('rate-limit-redis');
 const {RateLimiterRedis} = require('rate-limiter-flexible');
 const {logger} = require('./utils/logger');
+const {connectRabbitmq} = require('./utils/rabbitmq');
 
 const app = express();
 const port = process.env.PORT || 7000;
@@ -80,10 +81,23 @@ app.use('/api/posts', (req, res, next)=>{
 //error handler
 app.use(errorHandler);
 
-app.listen(port, ()=>{
-    console.log(`Server started at ${port}`);
-    logger.info(`Post service started at ${port}`);
+async function startServer(){
+    try{
+        await connectRabbitmq();
+        app.listen(port, ()=>{
+        console.log(`Server started at ${port}`);
+        logger.info(`Post service started at ${port}`);
 });
+    }catch(error){
+        logger.error("Failed to connect to server ", error);
+        process.exit(1);
+    }
+}
+startServer();
+// app.listen(port, ()=>{
+//     console.log(`Server started at ${port}`);
+//     logger.info(`Post service started at ${port}`);
+// });
 
 //unhandled promise rejection
 process.on("unhandledRejection", (reason, promise) => {

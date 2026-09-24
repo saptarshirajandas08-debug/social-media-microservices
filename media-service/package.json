@@ -13,6 +13,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "amqplib": "^2.0.1",
     "argon2": "^0.45.1",
     "cloudinary": "^2.11.0",
     "cors": "^2.8.6",

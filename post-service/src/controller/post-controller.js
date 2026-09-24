@@ -1,6 +1,7 @@
 const {logger} = require('../utils/logger');
 const {validateCreatedPost} = require('../utils/validation');
 const {posts} = require('../models/posts');
+const { publishEvent } = require('../utils/rabbitmq');
 
 //when we will create a new post we have to invalidate the cache or else if we alwas get from the cache, suppose we added 100 posts we will be getting five post all the time, because we will getting all of these from our cache only, so that means we need to invalidate the cache
 async function invalidatePostCache(req, input){
@@ -108,7 +109,7 @@ const getPost = async(req, res)=> {
 const deletePost = async(req, res)=> {
     try{
         logger.info("delete post endpoint hit")
-        const deletePost = await posts.findByIdAndDelete({
+        const deletePost = await posts.findOneAndDelete({
             _id: req.params.id,
             user: req.user.userId,
         })
@@ -119,6 +120,13 @@ const deletePost = async(req, res)=> {
                 message: "Post not found",
             })
         }
+
+        //publish post delete method
+        await publishEvent("post.deleted", {
+            postId : deletePost._id,
+            userId: req.user.userId,
+            mediaIds: deletePost.mediaIds,
+        })
          await invalidatePostCache(req, req.params.id);
          res.json({
            message: "Post deleted successfully",

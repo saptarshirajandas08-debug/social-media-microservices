@@ -1,5 +1,5 @@
 const {logger} = require('../utils/logger');
-const {uploadMediaToCloudinary} = require('../utils/cloudinary');
+const {uploadMediaToCloudinary, deleteMediaFromCloudinary} = require('../utils/cloudinary');
 const {media} = require('../models/media');
 
 const uploadMedia = async(req, res)=> {
@@ -19,8 +19,8 @@ const uploadMedia = async(req, res)=> {
         logger.info("Uploading to cloudinary starting...");
 
        const startTime = Date.now();
-const cloudinaryUploadResult = await uploadMediaToCloudinary(req.file);
-logger.info(`Cloudinary upload took ${Date.now() - startTime}ms`);
+       const cloudinaryUploadResult = await uploadMediaToCloudinary(req.file);
+       logger.info(`Cloudinary upload took ${Date.now() - startTime}ms`);
 
             const newlyCreatedMedia = new media({
               publicId: cloudinaryUploadResult.public_id,
@@ -45,4 +45,24 @@ logger.info(`Cloudinary upload took ${Date.now() - startTime}ms`);
     }
 }
 
-module.exports = {uploadMedia};
+const getAllMedia = async(req, res)=> {
+    try{
+        logger.info("get all media endpoint hit....");
+        const result = await media.find({userId: req.user.userId});
+        if(result.length === 0){
+            return res.status(404).json({
+                success:false,
+                message:"Cann't find any media for this user"
+            })
+        }
+        res.json({result});
+    }catch(error){
+        logger.error("error while upload media", error);
+        return res.status(500).json({
+            success: false,
+            message: "Internal server error",
+        })
+    }
+}
+
+module.exports = {uploadMedia, getAllMedia};

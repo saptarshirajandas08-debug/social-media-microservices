@@ -9,7 +9,9 @@
 //workflow:
 // suppose a user will create a post, so that means the client will send a create post api and submit it to the gateway, then the api gateway forwards this request to post service, and then post service create a post in the mongosb database. Now the post service will publish the particular event in the rabbitmq.
 
-//Now if i delete post from the post service then the media id will be deleted but we have to delete the same media from the media table also. So that means we have to delete this two places but we are using different services, we need a connection to communicate between two services now here the RabbitMQ comes
+//Now if i delete post from the post service then the media id will be deleted but we have to delete the same media from the media table also. So that means we have to delete this two places but we are using different services, we need a connection to communicate between two services now here the RabbitMQ comes.
+
+//RabbitMQ is a RabbitMQ message broker used to send, store, and route messages so different software applications can communicate with each other asynchronously. It will help us to communicate between different components. So for this we impliment AMQP (Advanced Message Queuing Protocol), which is standard for message oriented protocol. Some of the key featues are asynchronous messaging, decoupling
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');

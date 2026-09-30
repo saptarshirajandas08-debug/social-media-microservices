@@ -18,11 +18,19 @@ const createPost = async(req, res)=> {
         logger.info("create post endpoint hit");
         const {content, mediaIds} = req.body;
         const newlyCreatedPost = new posts({
-             user: req.user.userId,
+            user: req.user.userId,
             content,
             mediaIds: mediaIds || [],
         })
         await newlyCreatedPost.save();
+
+        //after the post it will store into the post table but for search we also have to send the data also in the search table.
+        await publishEvent('post.created', {
+            postId: newlyCreatedPost._id.toString(),
+            userId: newlyCreatedPost.user.toString(),
+            content: newlyCreatedPost.content,
+            createdAt: newlyCreatedPost.createdAt,
+        })
         await invalidatePostCache(req, newlyCreatedPost._id.toString());
         logger.info("Post created successfully", newlyCreatedPost);
         return res.status(201).json({

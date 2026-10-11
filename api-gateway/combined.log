@@ -898,3 +898,54 @@
 {"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:31:39.590Z"}
 {"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:31:39.591Z"}
 {"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:31:39.598Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:18.756Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:18.756Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:18.772Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:20.359Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:20.359Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:20.373Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:21.887Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:21.888Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:21.903Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:23.515Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:23.516Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:23.531Z"}
+{"level":"info","message":"Recieved POST request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:34.616Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2026-09-30T06:48:34.616Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2026-09-30T06:48:34.637Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:41.101Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:41.101Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:41.138Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:43.646Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:43.647Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:43.657Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:45.941Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:45.942Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:45.952Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:48.545Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:48.546Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:48.557Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:50.849Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:48:50.849Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2026-09-30T06:48:50.860Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:49:10.119Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:49:10.119Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:49:10.137Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:49:11.895Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:49:11.896Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:49:11.911Z"}
+{"level":"info","message":"Recieved GET request to undefined","service":"api-gateway","timestamp":"2026-09-30T06:49:13.615Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2026-09-30T06:49:13.615Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2026-09-30T06:49:13.629Z"}
+{"level":"info","message":"Api gateway is running on port 3000","service":"api-gateway","timestamp":"2026-10-10T05:51:26.988Z"}
+{"level":"info","message":"Identity service is running on http://localhost:8000","service":"api-gateway","timestamp":"2026-10-10T05:51:26.991Z"}
+{"level":"info","message":"Post service is running on port http://localhost:7000","service":"api-gateway","timestamp":"2026-10-10T05:51:26.992Z"}
+{"level":"info","message":"Media service is running on port http://localhost:9000","service":"api-gateway","timestamp":"2026-10-10T05:51:26.992Z"}
+{"level":"info","message":"Search service is running on port http://localhost:6000","service":"api-gateway","timestamp":"2026-10-10T05:51:26.992Z"}
+{"level":"info","message":"Redis url : redis://localhost:6379","service":"api-gateway","timestamp":"2026-10-10T05:51:26.993Z"}
+{"level":"info","message":"Api gateway is running on port 3000","service":"api-gateway","timestamp":"2026-10-11T10:19:06.386Z"}
+{"level":"info","message":"Identity service is running on http://localhost:8000","service":"api-gateway","timestamp":"2026-10-11T10:19:06.393Z"}
+{"level":"info","message":"Post service is running on port http://localhost:7000","service":"api-gateway","timestamp":"2026-10-11T10:19:06.394Z"}
+{"level":"info","message":"Media service is running on port http://localhost:9000","service":"api-gateway","timestamp":"2026-10-11T10:19:06.395Z"}
+{"level":"info","message":"Search service is running on port http://localhost:6000","service":"api-gateway","timestamp":"2026-10-11T10:19:06.396Z"}
+{"level":"info","message":"Redis url : redis://localhost:6379","service":"api-gateway","timestamp":"2026-10-11T10:19:06.397Z"}

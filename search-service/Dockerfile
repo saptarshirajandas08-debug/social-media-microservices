@@ -1,0 +1,15 @@
+# first specify here, we are using node js 22 image
+FROM node:22-alpine
+
+WORKDIR /use/src/app
+
+COPY package*.json ./
+
+RUN npm ci --only=production
+
+COPY . .
+
+EXPOSE 6000
+
+CMD [ "node", "src/server.js" ]
+

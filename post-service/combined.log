@@ -462,3 +462,29 @@
 {"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-30T06:31:35.426Z"}
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:31:35.426Z"}
 {"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:31:35.427Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-09-30T06:48:34.623Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:48:34.623Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:48:34.625Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-09-30T06:48:34.631Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"user":true}},"validationError":null},"cachedRequired":null,"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6abcb0c28bdafae7737de0d4","content":"fifth","createdAt":"2026-09-30T06:48:34.626Z","mediaIds":[""],"user":"6aa97c0106306bbda253f0da"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null,"validationError":null},"$isNew":false,"_doc":{"__v":0,"_id":"6abcb0c28bdafae7737de0d4","content":"fifth","createdAt":"2026-09-30T06:48:34.626Z","mediaIds":[""],"user":"6aa97c0106306bbda253f0da"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-09-30T06:48:34.634Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-30T06:48:41.110Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:48:41.111Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:48:41.118Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-30T06:48:43.652Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:48:43.653Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:48:43.654Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-30T06:48:45.947Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:48:45.948Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:48:45.950Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-30T06:48:48.552Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:48:48.552Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:48:48.554Z"}
+{"level":"info","message":"Received GET request to /api/posts/getAll-post","service":"post-service","timestamp":"2026-09-30T06:48:50.855Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-09-30T06:48:50.856Z"}
+{"level":"info","message":"get all post endpoint hit","service":"post-service","timestamp":"2026-09-30T06:48:50.857Z"}
+{"level":"info","message":"MongoDB Database connect","service":"post-service","timestamp":"2026-10-10T05:51:53.307Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-10-10T05:51:53.330Z"}
+{"level":"info","message":"Post service started at 7000","service":"post-service","timestamp":"2026-10-10T05:51:53.333Z"}
+{"level":"info","message":"MongoDB Database connect","service":"post-service","timestamp":"2026-10-11T10:19:36.234Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-10-11T10:19:36.266Z"}
+{"level":"info","message":"Post service started at 7000","service":"post-service","timestamp":"2026-10-11T10:19:36.273Z"}

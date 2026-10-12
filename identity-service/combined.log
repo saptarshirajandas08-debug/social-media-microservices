@@ -146,3 +146,70 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-18T16:04:31.272Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-18T16:04:31.273Z"}
 {"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-18T16:04:31.275Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-19T15:06:21.562Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-19T15:06:21.621Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-19T19:17:08.089Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-19T19:17:08.090Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-19T19:17:08.099Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-20T07:20:39.359Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-20T07:20:39.414Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-20T08:42:58.967Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-20T08:42:58.970Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-20T08:42:58.982Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-20T12:13:34.806Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-20T12:13:34.811Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-20T12:13:34.822Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-20T13:14:52.763Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-20T13:14:52.765Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-20T13:14:52.770Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-21T04:53:34.617Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-21T04:53:34.680Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-21T18:16:57.345Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-21T18:16:57.349Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-21T18:16:57.361Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-22T04:28:46.860Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-22T04:28:46.912Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-22T06:40:41.181Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-22T06:40:41.240Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-22T12:59:05.009Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-22T12:59:05.014Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-22T12:59:05.034Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-22T18:49:45.108Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-22T18:49:45.129Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-23T15:14:52.458Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-23T15:14:52.520Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-23T18:57:37.800Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-23T18:57:37.803Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-23T18:57:37.818Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-24T13:46:48.071Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-24T13:46:48.129Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-24T14:22:32.597Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-24T14:22:32.598Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-24T14:22:32.606Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-24T15:22:31.010Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-24T15:22:31.014Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-24T15:22:31.022Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-27T09:13:11.024Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-27T09:13:11.081Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-28T13:36:56.075Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-28T13:36:56.135Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-28T15:25:54.275Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-28T15:25:54.349Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-28T17:50:11.565Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-28T17:50:11.630Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-29T15:04:41.897Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-29T15:04:41.968Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-29T15:07:05.098Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-29T15:07:05.101Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-29T15:07:05.116Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-29T15:30:00.509Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-29T15:30:00.582Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-09-30T05:00:11.663Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-09-30T05:00:11.690Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-09-30T05:49:34.244Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2026-09-30T05:49:34.246Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2026-09-30T05:49:34.252Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-10-10T05:51:43.822Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-10-10T05:51:43.857Z"}
+{"level":"info","message":"Identity service started at 8000","service":"identity-service","timestamp":"2026-10-11T10:19:25.293Z"}
+{"level":"info","message":"Database connected","service":"identity-service","timestamp":"2026-10-11T10:19:25.362Z"}

@@ -1,7 +1,7 @@
 # first specify here, we are using node js 22 image
 FROM node:22-alpine
 
-WORKDIR /use/src/app
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
